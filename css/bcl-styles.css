@@ -1,0 +1,45 @@
+.bcl-payment-link-section {
+    margin: 0;
+    padding: 0;
+}
+
+.bcl-payment-link-section a,
+.bcl-payment-link-section .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+}
+
+.bcl-payment-link-section a {
+    background-color: #0073aa;
+    color: #ffffff;
+}
+
+.bcl-payment-link-section a:hover {
+    background-color: #005177;
+}
+
+.bcl-payment-link-section .button {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #d0d0d0;
+    cursor: pointer;
+}
+
+.bcl-payment-link-section .button:hover {
+    background-color: #f0f0f0;
+}
+
+.bcl-payment-link-result {
+    margin-top: 8px;
+    font-style: italic;
+    color: #666666;
+    font-size: 14px;
+}

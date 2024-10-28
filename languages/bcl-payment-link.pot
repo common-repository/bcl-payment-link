@@ -1,0 +1,163 @@
+# Copyright (C) 2024 Web Impian Sdn Bhd
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: BCL Payment Link 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bcl-payment-link\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-05T12:37:32+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: bcl-payment-link\n"
+
+#. Plugin Name of the plugin
+#: bcl-payment-link.php
+#: include/bcl-order-column.php:31
+#: include/bcl-woocommerce-settings.php:11
+msgid "BCL Payment Link"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: bcl-payment-link.php
+msgid "https://bcl.my"
+msgstr ""
+
+#. Description of the plugin
+#: bcl-payment-link.php
+msgid "Generate BCL payment links for WordPress, with initial support for WooCommerce orders."
+msgstr ""
+
+#. Author of the plugin
+#: bcl-payment-link.php
+msgid "Web Impian Sdn Bhd"
+msgstr ""
+
+#. Author URI of the plugin
+#: bcl-payment-link.php
+msgid "https://webimpian.com"
+msgstr ""
+
+#: bcl-payment-link.php:75
+msgid "Settings"
+msgstr ""
+
+#: bcl-payment-link.php:83
+msgid "Docs"
+msgstr ""
+
+#: bcl-payment-link.php:84
+msgid "Register Account"
+msgstr ""
+
+#: include/bcl-cron.php:17
+msgid "Every Minute"
+msgstr ""
+
+#: include/bcl-cron.php:62
+msgid "Payment received via BCL Payment Link"
+msgstr ""
+
+#: include/bcl-cron.php:65
+msgid "Payment cancelled"
+msgstr ""
+
+#: include/bcl-cron.php:68
+msgid "Payment failed"
+msgstr ""
+
+#: include/bcl-order-column.php:62
+msgid "Copy Link"
+msgstr ""
+
+#: include/bcl-order-column.php:68
+msgid "Generate Payment Link"
+msgstr ""
+
+#: include/bcl-order-column.php:81
+msgid "Order Paid via BCL"
+msgstr ""
+
+#: include/bcl-order-column.php:83
+msgid "Order Paid"
+msgstr ""
+
+#: include/bcl-order-column.php:91
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: include/bcl-order-column.php:97
+msgid "Invalid order ID"
+msgstr ""
+
+#: include/bcl-order-column.php:103
+msgid "Order not found"
+msgstr ""
+
+#: include/bcl-order-column.php:108
+msgid "This order has already been paid"
+msgstr ""
+
+#. Translators: %s is the URL of the generated payment link
+#: include/bcl-order-column.php:119
+msgid "BCL payment link generated: %s"
+msgstr ""
+
+#: include/bcl-order-column.php:127
+msgid "Payment link generated successfully"
+msgstr ""
+
+#: include/bcl-order-column.php:130
+msgid "Failed to generate payment link"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:26
+msgid "BCL Payment Link Settings"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:32
+msgid "API Token"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:34
+msgid "Team Owner/leader can get this token on token Setting."
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:42
+msgid "Portal Key"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:44
+msgid "Portal Key from BCL console to generate payment link."
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:52
+msgid "Order Prefix"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:54
+msgid "Prefix for payment link orders. Example: SITEA-116"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:62
+msgid "Payment Method"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:64
+msgid "Select the payment method"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:67
+msgid "FPX (Current & Saving Account)"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:68
+msgid "Line of Credit"
+msgstr ""
+
+#: include/bcl-woocommerce-settings.php:69
+msgid "DuitNow OBW"
+msgstr ""
